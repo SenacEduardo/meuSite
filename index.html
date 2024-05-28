@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Foguete</title>
+</head>
+<body>
+  <div class="wrapper">
+
+    <div class="containerLogo">
+      <img src="foguete.png" alt="Foguete vermelho soltando fumaça"/>
+    </div>
+
+    <div class="containerForm">
+      <form>
+        <div class="wrapperInput">
+          <label>Nome Completo</label>
+          <input type="text" placeholder="Digite Nome completo" />
+        </div>
+        
+        <div class="wrapperInput">
+          <label>Email</label>
+          <input type="email"  placeholder="Digite Email"/>
+        </div>
+
+        <div class="wrapperInput">
+          <label>Data Nascimento</label>
+          <input type="date" />  
+        </div>
+
+        <div class="wrapperInput">
+          <label>Senha</label>
+          <input type="password" placeholder="********">
+        </div>
+
+        <div class="wrapperInput">
+          <label>Selecione a borda, LA ELE</label>
+          <select class="valorDaBorda">
+            <option selected> 0 </option>
+            <option> 10 </option>
+            <option> 20 </option>
+            <option> 30 </option>
+          </select>
+        </div>
+        <button class="btnEnviar" type="button">
+          Enviar Cadastro
+        </button>
+      </form>
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
